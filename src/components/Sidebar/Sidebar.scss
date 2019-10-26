@@ -1,0 +1,77 @@
+.sidebar {
+  width: 250px;
+  background: linear-gradient(
+      180deg,
+      #424c83 3.71%,
+      #242a49 52.08%,
+      #000000 97.92%
+    ),
+    #546358;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 39px;
+  color: #f0e5e5;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  // transition: width 0.05s ease;
+  a {
+    color: #f0e5e5;
+  }
+
+  small,
+  .small {
+    font-size: 16px !important;
+  }
+
+  ul {
+    height: 100%;
+  }
+
+  img {
+    width: 42px;
+  }
+  .nav {
+    &-link {
+      font-size: 20px;
+    }
+    &-item {
+      div {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+    }
+  }
+
+  .brand {
+    font-size: 26px;
+  }
+
+  .navbar {
+    &-toggler {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+
+      img {
+        width: 20px;
+        transform: rotateY(0deg);
+        transition: transform 0.25s ease;
+      }
+    }
+  }
+
+  .collapsed {
+    img {
+      transform: rotateY(180deg);
+      transition: transform 0.25s ease;
+    }
+  }
+
+  &-small {
+    width: 75px;
+    transition: width 0.25s ease;
+  }
+}
