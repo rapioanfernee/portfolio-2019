@@ -1,0 +1,50 @@
+@import "./Swiper.scss";
+
+.project {
+  width: 472px;
+  text-align: right;
+
+  &-photo-container {
+    width: 100%;
+    position: relative;
+    img {
+      width: 472px;
+    }
+  }
+  &-title {
+    padding-top: 32px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  &-subtitle {
+    font-size: 18px;
+    padding-top: 16px;
+  }
+  &-buttons {
+    display: flex;
+    justify-content: flex-end;
+    span {
+      width: 128px;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      border-radius: 8px;
+      background: #242a49;
+      width: 128px;
+      height: 44px;
+      margin-left: 32px;
+      cursor: pointer;
+      transition: background 0.25s ease;
+      &:hover {
+        background: #424c83;
+        transition: background 0.25s ease;
+      }
+    }
+  }
+
+  .swiper-container {
+    pointer-events: none;
+  }
+}

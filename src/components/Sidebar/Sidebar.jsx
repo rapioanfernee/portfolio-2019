@@ -1,5 +1,6 @@
 import React from "react";
 import "./Sidebar.scss";
+import "../../index.scss";
 
 import {
   Navbar,
@@ -12,7 +13,7 @@ import {
 
 class Sidebar extends React.Component {
   state = {
-    collapsed: false
+    collapsed: true
   };
 
   navToggle = () => {
@@ -24,9 +25,9 @@ class Sidebar extends React.Component {
 
   render() {
     return this.state.collapsed ? (
-      <Navbar className="sidebar sidebar-small flex-column justify-content-center">
+      <Navbar className="d-none d-lg-flex  sidebar sidebar-small flex-column justify-content-center">
         <NavbarToggler className="collapsed" onClick={this.navToggle}>
-          <img src="/Collapse.png"></img>
+          <img src="/Collapse.png" alt="menu"></img>
         </NavbarToggler>
         <Collapse isOpen={true} navbar>
           <Nav className="align-items-left justify-content-center" navbar>
@@ -34,27 +35,27 @@ class Sidebar extends React.Component {
               <NavLink className="brand">AR</NavLink>
               <small>Dev</small>
             </NavItem>
-            <NavItem className="pr-2 pt-4">
-              <NavLink className="small">Proj...</NavLink>
+            <NavItem className="pr-2">
+              <NavLink className="small">Projects</NavLink>
             </NavItem>
             <NavItem className="pr-2">
-              <NavLink className="small">Expe...</NavLink>
+              <NavLink className="small">Experience</NavLink>
             </NavItem>
             <NavItem className="pr-2">
               <NavLink className="small">Skills</NavLink>
             </NavItem>
-            <NavItem className="pr-2 pb-5">
-              <NavLink className="small">Back...</NavLink>
+            <NavItem className="pr-2 pb-2">
+              <NavLink className="small">Background</NavLink>
             </NavItem>
             <NavItem>
               <div style={{ flexDirection: "column" }}>
-                <a style={{ paddingBottom: "8px" }} href="#">
+                <a style={{ paddingBottom: "8px" }} href="/#">
                   <img src="/fb 2.png" alt="fb"></img>
                 </a>
-                <a style={{ paddingBottom: "8px" }} href="#">
+                <a style={{ paddingBottom: "8px" }} href="/#">
                   <img src="/gh 2.png" alt="fb"></img>
                 </a>
-                <a style={{ paddingBottom: "8px" }} href="#">
+                <a style={{ paddingBottom: "8px" }} href="/#">
                   <img src="/linkedin 2.png" alt="fb"></img>
                 </a>
               </div>
@@ -65,7 +66,7 @@ class Sidebar extends React.Component {
     ) : (
       <Navbar className="sidebar flex-column justify-content-center">
         <NavbarToggler onClick={this.navToggle}>
-          <img src="/Collapse.png"></img>
+          <img src="/Collapse.png" alt="menu"></img>
         </NavbarToggler>
         <Collapse isOpen={true} navbar>
           <Nav className="align-items-left justify-content-center" navbar>
@@ -73,7 +74,7 @@ class Sidebar extends React.Component {
               <NavLink className="brand">Anfernee Rapio</NavLink>
               <small>Front-End Developer</small>
             </NavItem>
-            <NavItem className=" pl-5 pt-4">
+            <NavItem className=" pl-5">
               <NavLink>Projects</NavLink>
             </NavItem>
             <NavItem className="pl-5">
@@ -87,13 +88,13 @@ class Sidebar extends React.Component {
             </NavItem>
             <NavItem>
               <div>
-                <a href="#">
+                <a href="/#">
                   <img src="/fb 2.png" alt="fb"></img>
                 </a>
-                <a href="#">
+                <a href="/#">
                   <img src="/gh 2.png" alt="fb"></img>
                 </a>
-                <a href="#">
+                <a href="/#">
                   <img src="/linkedin 2.png" alt="fb"></img>
                 </a>
               </div>
