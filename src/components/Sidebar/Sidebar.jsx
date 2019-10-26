@@ -23,6 +23,10 @@ class Sidebar extends React.Component {
     }));
   };
 
+  scrollInto = refName => {
+    this.props.setScroll(refName);
+  };
+
   render() {
     return this.state.collapsed ? (
       <Navbar className="d-none d-lg-flex  sidebar sidebar-small flex-column justify-content-center">
@@ -31,21 +35,43 @@ class Sidebar extends React.Component {
         </NavbarToggler>
         <Collapse isOpen={true} navbar>
           <Nav className="align-items-left justify-content-center" navbar>
-            <NavItem className=" pb-4">
-              <NavLink className="brand">AR</NavLink>
+            <NavItem
+              onClick={() => this.scrollInto("Projects")}
+              className="pr-2"
+            >
+              <NavLink style={{ cursor: "pointer" }} className="brand">
+                AR
+              </NavLink>
               <small>Dev</small>
             </NavItem>
-            <NavItem className="pr-2">
-              <NavLink className="small">Projects</NavLink>
+            <NavItem
+              onClick={() => this.scrollInto("Projects")}
+              className="pr-2"
+            >
+              <NavLink style={{ cursor: "pointer" }} className="small">
+                Projects
+              </NavLink>
             </NavItem>
-            <NavItem className="pr-2">
-              <NavLink className="small">Experience</NavLink>
+            <NavItem
+              onClick={() => this.scrollInto("Experience")}
+              className="pr-2"
+            >
+              <NavLink style={{ cursor: "pointer" }} className="small">
+                Experience
+              </NavLink>
             </NavItem>
-            <NavItem className="pr-2">
-              <NavLink className="small">Skills</NavLink>
+            <NavItem onClick={() => this.scrollInto("Skills")} className="pr-2">
+              <NavLink style={{ cursor: "pointer" }} className="small">
+                Skills
+              </NavLink>
             </NavItem>
-            <NavItem className="pr-2 pb-2">
-              <NavLink className="small">Background</NavLink>
+            <NavItem
+              onClick={() => this.scrollInto("Background")}
+              className="pr-2 pb-2"
+            >
+              <NavLink style={{ cursor: "pointer" }} className="small">
+                Background
+              </NavLink>
             </NavItem>
             <NavItem>
               <div style={{ flexDirection: "column" }}>
@@ -70,21 +96,35 @@ class Sidebar extends React.Component {
         </NavbarToggler>
         <Collapse isOpen={true} navbar>
           <Nav className="align-items-left justify-content-center" navbar>
-            <NavItem className=" pb-4">
-              <NavLink className="brand">Anfernee Rapio</NavLink>
+            <NavItem
+              onClick={() => this.scrollInto("Projects")}
+              className="pr-2"
+            >
+              <NavLink style={{ cursor: "pointer" }} className="brand">
+                Anfernee Rapio
+              </NavLink>
               <small>Front-End Developer</small>
             </NavItem>
-            <NavItem className=" pl-5">
-              <NavLink>Projects</NavLink>
+            <NavItem
+              onClick={() => this.scrollInto("Projects")}
+              className="pr-2"
+            >
+              <NavLink style={{ cursor: "pointer" }}>Projects</NavLink>
             </NavItem>
-            <NavItem className="pl-5">
-              <NavLink>Experience</NavLink>
+            <NavItem
+              onClick={() => this.scrollInto("Experience")}
+              className="pr-2"
+            >
+              <NavLink style={{ cursor: "pointer" }}>Experience</NavLink>
             </NavItem>
-            <NavItem className="pl-5">
-              <NavLink>Skills</NavLink>
+            <NavItem onClick={() => this.scrollInto("Skills")} className="pr-2">
+              <NavLink style={{ cursor: "pointer" }}>Skills</NavLink>
             </NavItem>
-            <NavItem className="pl-5 pb-5">
-              <NavLink>Background</NavLink>
+            <NavItem
+              onClick={() => this.scrollInto("Background")}
+              className="pr-2"
+            >
+              <NavLink style={{ cursor: "pointer" }}>Background</NavLink>
             </NavItem>
             <NavItem>
               <div>

@@ -3,7 +3,11 @@ import "./Skills.scss";
 
 class Skills extends Component {
   render() {
-    return <div className="skills">Skills</div>;
+    return (
+      <div className="skills" ref={this.props.sectionRef}>
+        Skills
+      </div>
+    );
   }
 }
 

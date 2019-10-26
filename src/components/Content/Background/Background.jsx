@@ -3,7 +3,11 @@ import "./Background.scss";
 
 class Background extends Component {
   render() {
-    return <div className="background">Background</div>;
+    return (
+      <div className="background" ref={this.props.sectionRef}>
+        Background
+      </div>
+    );
   }
 }
 

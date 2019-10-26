@@ -4,7 +4,7 @@ import Swiper from "react-id-swiper";
 import "./Projects.scss";
 import "./ProjectsTile.scss";
 
-const Projects = () => {
+const Projects = props => {
   const paramsParent = {
     slidesPerView: 2,
     spaceBetween: 30,
@@ -26,7 +26,7 @@ const Projects = () => {
     }
   };
   return (
-    <div className="projects">
+    <div className="projects" ref={props.sectionRef}>
       <span>Projects</span>
       <Swiper {...paramsParent}>
         <div className="project">
