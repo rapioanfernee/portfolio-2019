@@ -1,6 +1,5 @@
 @import "../../index.scss";
 .sidebar {
-  width: 275px;
   background: linear-gradient(
       180deg,
       #424c83 3.71%,
@@ -21,7 +20,11 @@
   position: absolute;
   height: 100vh;
   z-index: 10;
+
+  width: 225px;
+
   @include breakpoint(lg) {
+    width: 275px;
     position: relative;
   }
 
@@ -79,7 +82,7 @@
 
       @include breakpoint(lg) {
         position: absolute;
-        background-image: url("/portfolio/collapse.png");
+        background-image: url("/portfolio/menu.png");
       }
     }
   }
