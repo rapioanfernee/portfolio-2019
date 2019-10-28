@@ -39,13 +39,13 @@ const Projects = props => {
           <div className="project">
             <Swiper {...paramsChild}>
               <div className="project-photo-container">
-                <img src="/op-home.png" alt="op"></img>
+                <img src="/portfolio/op-home.png" alt="op"></img>
               </div>
               <div className="project-photo-container">
-                <img src="/op-1.png" alt="op"></img>
+                <img src="/portfolio/op-1.png" alt="op"></img>
               </div>
               <div className="project-photo-container">
-                <img src="/op-2.png" alt="op"></img>
+                <img src="/portfolio/op-2.png" alt="op"></img>
               </div>
             </Swiper>
             <div className="project-title">OnePropertee</div>
@@ -68,13 +68,13 @@ const Projects = props => {
           <div className="project">
             <Swiper {...paramsChild}>
               <div className="project-photo-container">
-                <img src="/ilove-home.png" alt="ilove"></img>
+                <img src="/portfolio/ilove-home.png" alt="ilove"></img>
               </div>
               <div className="project-photo-container">
-                <img src="/ilove-1.png" alt="ilove"></img>
+                <img src="/portfolio/ilove-1.png" alt="ilove"></img>
               </div>
               <div className="project-photo-container">
-                <img src="/ilove-2.png" alt="ilove"></img>
+                <img src="/portfolio/ilove-2.png" alt="ilove"></img>
               </div>
             </Swiper>
             <div className="project-title">
@@ -98,13 +98,13 @@ const Projects = props => {
           <div className="project">
             <Swiper {...paramsChild}>
               <div className="project-photo-container">
-                <img src="/w-home.png" alt="w"></img>
+                <img src="/portfolio/w-home.png" alt="w"></img>
               </div>
               <div className="project-photo-container">
-                <img src="/w-1.png" alt="w"></img>
+                <img src="/portfolio/w-1.png" alt="w"></img>
               </div>
               <div className="project-photo-container">
-                <img src="/w-2.png" alt="w"></img>
+                <img src="/portfolio/w-2.png" alt="w"></img>
               </div>
             </Swiper>
             <div className="project-title">Weather Forecast App</div>
@@ -145,13 +145,13 @@ const Projects = props => {
         <div className="project pb-4 d-flex flex-column align-items-center text-center border-bottom border-top border-secondary">
           <Swiper {...paramsChild}>
             <div className="project-photo-container">
-              <img src="/op-home.png" alt="op"></img>
+              <img src="/portfolio/op-home.png" alt="op"></img>
             </div>
             <div className="project-photo-container">
-              <img src="/op-home.png" alt="op"></img>
+              <img src="/portfolio/op-home.png" alt="op"></img>
             </div>
             <div className="project-photo-container">
-              <img src="/op-home.png" alt="op"></img>
+              <img src="/portfolio/op-home.png" alt="op"></img>
             </div>
           </Swiper>
           <div className="project-title pt-0">OnePropertee</div>
@@ -173,13 +173,13 @@ const Projects = props => {
         <div className="project pb-4 d-flex flex-column align-items-center text-center border-bottom  border-secondary">
           <Swiper {...paramsChild}>
             <div className="project-photo-container">
-              <img src="/ilove-home.png" alt="ilove"></img>
+              <img src="/portfolio/ilove-home.png" alt="ilove"></img>
             </div>
             <div className="project-photo-container">
-              <img src="/ilove-1.png" alt="ilove"></img>
+              <img src="/portfolio/ilove-1.png" alt="ilove"></img>
             </div>
             <div className="project-photo-container">
-              <img src="/ilove-2.png" alt="ilove"></img>
+              <img src="/portfolio/ilove-2.png" alt="ilove"></img>
             </div>
           </Swiper>
           <div className="project-title pt-0">
@@ -203,13 +203,13 @@ const Projects = props => {
         <div className="project pb-4 d-flex flex-column align-items-center text-center border-bottom border-secondary">
           <Swiper {...paramsChild}>
             <div className="project-photo-container">
-              <img src="/w-home.png" alt="w"></img>
+              <img src="/portfolio/w-home.png" alt="w"></img>
             </div>
             <div className="project-photo-container">
-              <img src="/w-1.png" alt="w"></img>
+              <img src="/portfolio/w-1.png" alt="w"></img>
             </div>
             <div className="project-photo-container">
-              <img src="/w-2.png" alt="w"></img>
+              <img src="/portfolio/w-2.png" alt="w"></img>
             </div>
           </Swiper>
           <div className="project-title pt-0">Weather Forecast App</div>

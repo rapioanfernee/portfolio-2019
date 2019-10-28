@@ -4,46 +4,46 @@ import "./Skills.scss";
 const Skills = props => {
   const proficientSkills = [
     {
-      img: "/html5 1.png",
+      img: "/portfolio/html5 1.png",
       name: "HTML"
     },
     {
-      img: "/css3.png",
+      img: "/portfolio/css3.png",
       name: "CSS"
     },
     {
-      img: "/js 1.png",
+      img: "/portfolio/js 1.png",
       name: "JavaScript"
     },
     {
-      img: "/react 1.png",
+      img: "/portfolio/react 1.png",
       name: "ReactJS"
     },
     {
-      img: "/redux 1.png",
+      img: "/portfolio/redux 1.png",
       name: "Redux"
     }
   ];
 
   const knowledgeableSkills = [
     {
-      img: "/sass 1.png",
+      img: "/portfolio/sass 1.png",
       name: "SASS"
     },
     {
-      img: "/bootstrap 1.png",
+      img: "/portfolio/bootstrap 1.png",
       name: "Bootstrap"
     },
     {
-      img: "/java 1.png",
+      img: "/portfolio/java 1.png",
       name: "Java"
     },
     {
-      img: "/figma 1.png",
+      img: "/portfolio/figma 1.png",
       name: "Figma"
     },
     {
-      img: "/git 1.png",
+      img: "/portfolio/git 1.png",
       name: "Git"
     }
   ];

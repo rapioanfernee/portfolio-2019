@@ -79,19 +79,19 @@ class Sidebar extends React.Component {
                   style={{ paddingBottom: "8px" }}
                   href="https://www.facebook.com/rapioanfernee"
                 >
-                  <img src="/fb 2.png" alt="fb"></img>
+                  <img src="/portfolio/fb 2.png" alt="fb"></img>
                 </a>
                 <a
                   style={{ paddingBottom: "8px" }}
                   href="https://github.com/anferneerapio"
                 >
-                  <img src="/gh 2.png" alt="fb"></img>
+                  <img src="/portfolio/gh 2.png" alt="fb"></img>
                 </a>
                 <a
                   style={{ paddingBottom: "8px" }}
                   href="https://www.linkedin.com/in/anfernee-rapio-673843136/"
                 >
-                  <img src="/linkedin 2.png" alt="fb"></img>
+                  <img src="/portfolio/linkedin 2.png" alt="fb"></img>
                 </a>
               </div>
             </NavItem>
@@ -141,13 +141,13 @@ class Sidebar extends React.Component {
             <NavItem>
               <div>
                 <a href="https://www.facebook.com/rapioanfernee">
-                  <img src="/fb 2.png" alt="fb"></img>
+                  <img src="/portfolio/fb 2.png" alt="fb"></img>
                 </a>
                 <a href="https://github.com/anferneerapio">
-                  <img src="/gh 2.png" alt="fb"></img>
+                  <img src="/portfolio/gh 2.png" alt="fb"></img>
                 </a>
                 <a href="https://www.linkedin.com/in/anfernee-rapio-673843136/">
-                  <img src="/linkedin 2.png" alt="fb"></img>
+                  <img src="/portfolio/linkedin 2.png" alt="fb"></img>
                 </a>
               </div>
             </NavItem>
