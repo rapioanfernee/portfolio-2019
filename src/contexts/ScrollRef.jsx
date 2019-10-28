@@ -9,9 +9,7 @@ export default class ScrollRefProvider extends Component {
 
   setScroll = refName => {
     this.state.ref
-      .find(singleRef => {
-        return singleRef.name === refName;
-      })
+      .find(singleRef => singleRef.name === refName)
       .ref.current.scrollIntoView({ behavior: "smooth" });
   };
   setRef = refObject => {

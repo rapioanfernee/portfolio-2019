@@ -36,7 +36,13 @@ class Sidebar extends React.Component {
         <Collapse isOpen={true} navbar>
           <Nav className="align-items-left justify-content-center" navbar>
             <NavItem
-              onClick={() => this.scrollInto("Projects")}
+              onClick={() =>
+                this.scrollInto(
+                  `${
+                    window.screen.width >= 992 ? "ProjectsDesktop" : "Projects"
+                  }`
+                )
+              }
               className="pr-2"
             >
               <NavLink style={{ cursor: "pointer" }} className="brand">
@@ -45,7 +51,13 @@ class Sidebar extends React.Component {
               <small>Dev</small>
             </NavItem>
             <NavItem
-              onClick={() => this.scrollInto("Projects")}
+              onClick={() =>
+                this.scrollInto(
+                  `${
+                    window.screen.width >= 992 ? "ProjectsDesktop" : "Projects"
+                  }`
+                )
+              }
               className="pr-2"
             >
               <NavLink style={{ cursor: "pointer" }} className="small">
@@ -106,7 +118,13 @@ class Sidebar extends React.Component {
         <Collapse isOpen={true} navbar>
           <Nav className="align-items-left justify-content-center" navbar>
             <NavItem
-              onClick={() => this.scrollInto("Projects")}
+              onClick={() =>
+                this.scrollInto(
+                  `${
+                    window.screen.width >= 992 ? "ProjectsDesktop" : "Projects"
+                  }`
+                )
+              }
               className="pr-2"
             >
               <NavLink style={{ cursor: "pointer" }} className="brand">
@@ -115,7 +133,13 @@ class Sidebar extends React.Component {
               <small>Front-End Developer</small>
             </NavItem>
             <NavItem
-              onClick={() => this.scrollInto("Projects")}
+              onClick={() =>
+                this.scrollInto(
+                  `${
+                    window.screen.width >= 992 ? "ProjectsDesktop" : "Projects"
+                  }`
+                )
+              }
               className="pl-4 pr-2"
             >
               <NavLink style={{ cursor: "pointer" }}>Projects</NavLink>

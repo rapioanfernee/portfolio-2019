@@ -11,6 +11,7 @@ import Skills from "./Skills/Skills";
 class Content extends React.Component {
   constructor(props) {
     super(props);
+    this.projectsRefDesktop = React.createRef();
     this.projectsRef = React.createRef();
     this.experienceRef = React.createRef();
     this.skillsRef = React.createRef();
@@ -19,6 +20,10 @@ class Content extends React.Component {
 
   componentDidMount() {
     this.props.setRef({ name: "Projects", ref: this.projectsRef });
+    this.props.setRef({
+      name: "ProjectsDesktop",
+      ref: this.projectsRefDesktop
+    });
     this.props.setRef({ name: "Experience", ref: this.experienceRef });
     this.props.setRef({ name: "Skills", ref: this.skillsRef });
     this.props.setRef({ name: "Background", ref: this.backgroundRef });
@@ -31,7 +36,12 @@ class Content extends React.Component {
           {context => <Menu {...context}></Menu>}
         </ScrollRefContext.Consumer> */}
         <Container className="content">
-          <Projects sectionRef={this.projectsRef}></Projects>
+          <Projects
+            sectionRef={{
+              projectsRefDesktop: this.projectsRefDesktop,
+              projectsRef: this.projectsRef
+            }}
+          ></Projects>
           <Experience sectionRef={this.experienceRef}></Experience>
           <Skills sectionRef={this.skillsRef}></Skills>
           <Background sectionRef={this.backgroundRef}></Background>
