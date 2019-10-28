@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./App.scss";
-import Menu from "./components/Menu/Menu";
+
 import Sidebar from "./components/Sidebar/Sidebar";
 import Content from "./components/Content/Content";
 import ScrollRefProvider, { ScrollRefContext } from "./contexts/ScrollRef";

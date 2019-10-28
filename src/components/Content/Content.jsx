@@ -3,13 +3,10 @@ import { Container } from "reactstrap";
 
 import "./Content.scss";
 
-import Menu from "../Menu/Menu";
 import Background from "./Background/Background";
 import Experience from "./Experience/Experience";
 import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
-
-import { ScrollRefContext } from "../../contexts/ScrollRef";
 
 class Content extends React.Component {
   constructor(props) {

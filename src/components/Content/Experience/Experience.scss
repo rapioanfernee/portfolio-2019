@@ -1,4 +1,26 @@
+@import "../../../index.scss";
+
 .experience {
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  padding: 64px 8px 32px 8px;
+  @include breakpoint(sm) {
+    padding: 64px 32px 32px 32px;
+  }
+
+  @include breakpoint(lg) {
+    text-align: right;
+    align-items: flex-end;
+    padding: 0 32px;
+  }
+  &-title {
+    font-size: 34px;
+    line-height: 41px;
+  }
 }

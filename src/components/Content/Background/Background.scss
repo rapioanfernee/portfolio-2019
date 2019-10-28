@@ -1,4 +1,37 @@
+@import "../../../index.scss";
+
 .background {
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 64px 8px 32px 8px;
+  @include breakpoint(sm) {
+    padding: 64px 32px 32px 32px;
+  }
+
+  @include breakpoint(lg) {
+    padding: 0 32px;
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  &-title {
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 41px;
+  }
+
+  p {
+    padding: 8px 0;
+    font-size: 20px;
+    line-height: 29px;
+    max-width: 457px;
+    @include breakpoint(lg) {
+      max-width: unset;
+    }
+  }
 }

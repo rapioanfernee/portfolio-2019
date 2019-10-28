@@ -1,4 +1,57 @@
+@import "../../../index.scss";
+
 .skills {
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+  padding: 64px 8px 32px 8px;
+  @include breakpoint(sm) {
+    padding: 64px 32px 32px 32px;
+  }
+
+  @include breakpoint(lg) {
+    align-items: flex-end;
+    text-align: right;
+    padding: 0 32px;
+  }
+
+  &-title {
+    font-size: 34px;
+    line-height: 41px;
+  }
+
+  &-section {
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 457px;
+    &-subtitle {
+      font-size: 1.25rem;
+    }
+
+    &-items {
+      display: flex;
+
+      flex-wrap: wrap;
+    }
+  }
+
+  &-item {
+    width: 91px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-photo-container {
+  }
+
+  &-skill-name {
+    font-size: 0.85rem;
+  }
 }

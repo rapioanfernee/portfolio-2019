@@ -4,6 +4,7 @@
 .project {
   text-align: right;
   width: 300px;
+  padding: 0 4px;
   @include breakpoint(sm) {
     width: 320px;
   }
@@ -20,18 +21,18 @@
     width: 100%;
     position: relative;
     img {
-      width: 300px;
+      width: 290px;
       @include breakpoint(sm) {
-        width: 320px;
+        width: 305px;
       }
       @include breakpoint(md) {
-        width: 425px;
+        width: 410px;
       }
       @include breakpoint(lg) {
-        width: 339px;
+        width: 325px;
       }
       @include breakpoint(xl) {
-        width: 472px;
+        width: 450px;
       }
     }
   }
@@ -39,10 +40,19 @@
     padding-top: 32px;
     font-size: 24px;
     line-height: 29px;
+    @include breakpoint(lg) {
+      min-height: 89.6px;
+    }
+    @include breakpoint(xl) {
+      min-height: unset;
+    }
   }
   &-subtitle {
     font-size: 18px;
     padding-top: 16px;
+    @include breakpoint(xl) {
+      min-height: 68px;
+    }
   }
   &-buttons {
     display: flex;
@@ -51,5 +61,11 @@
 
   .swiper-container {
     pointer-events: none;
+  }
+  small {
+    display: block;
+    text-align: right;
+    height: 38px;
+    align-self: flex-end;
   }
 }

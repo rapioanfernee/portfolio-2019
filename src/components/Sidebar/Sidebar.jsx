@@ -75,13 +75,22 @@ class Sidebar extends React.Component {
             </NavItem>
             <NavItem>
               <div style={{ flexDirection: "column" }}>
-                <a style={{ paddingBottom: "8px" }} href="/#">
+                <a
+                  style={{ paddingBottom: "8px" }}
+                  href="https://www.facebook.com/rapioanfernee"
+                >
                   <img src="/fb 2.png" alt="fb"></img>
                 </a>
-                <a style={{ paddingBottom: "8px" }} href="/#">
+                <a
+                  style={{ paddingBottom: "8px" }}
+                  href="https://github.com/anferneerapio"
+                >
                   <img src="/gh 2.png" alt="fb"></img>
                 </a>
-                <a style={{ paddingBottom: "8px" }} href="/#">
+                <a
+                  style={{ paddingBottom: "8px" }}
+                  href="https://www.linkedin.com/in/anfernee-rapio-673843136/"
+                >
                   <img src="/linkedin 2.png" alt="fb"></img>
                 </a>
               </div>
@@ -131,13 +140,13 @@ class Sidebar extends React.Component {
             </NavItem>
             <NavItem>
               <div>
-                <a href="/#">
+                <a href="https://www.facebook.com/rapioanfernee">
                   <img src="/fb 2.png" alt="fb"></img>
                 </a>
-                <a href="/#">
+                <a href="https://github.com/anferneerapio">
                   <img src="/gh 2.png" alt="fb"></img>
                 </a>
-                <a href="/#">
+                <a href="https://www.linkedin.com/in/anfernee-rapio-673843136/">
                   <img src="/linkedin 2.png" alt="fb"></img>
                 </a>
               </div>
