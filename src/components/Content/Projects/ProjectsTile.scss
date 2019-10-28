@@ -1,14 +1,38 @@
 @import "./Swiper.scss";
+@import "../../../index.scss";
 
 .project {
-  width: 472px;
   text-align: right;
-
+  width: 300px;
+  @include breakpoint(sm) {
+    width: 320px;
+  }
+  @include breakpoint(md) {
+    width: 425px;
+  }
+  @include breakpoint(lg) {
+    width: 339px;
+  }
+  @include breakpoint(xl) {
+    width: 472px;
+  }
   &-photo-container {
     width: 100%;
     position: relative;
     img {
-      width: 472px;
+      width: 300px;
+      @include breakpoint(sm) {
+        width: 320px;
+      }
+      @include breakpoint(md) {
+        width: 425px;
+      }
+      @include breakpoint(lg) {
+        width: 339px;
+      }
+      @include breakpoint(xl) {
+        width: 472px;
+      }
     }
   }
   &-title {
@@ -23,25 +47,6 @@
   &-buttons {
     display: flex;
     justify-content: flex-end;
-    span {
-      width: 128px;
-      font-size: 18px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #ffffff;
-      border-radius: 8px;
-      background: #242a49;
-      width: 128px;
-      height: 44px;
-      margin-left: 32px;
-      cursor: pointer;
-      transition: background 0.25s ease;
-      &:hover {
-        background: #424c83;
-        transition: background 0.25s ease;
-      }
-    }
   }
 
   .swiper-container {
