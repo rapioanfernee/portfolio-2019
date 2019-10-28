@@ -70,7 +70,7 @@
       position: absolute;
       top: 16px;
       right: 16px;
-      background-image: url("/Menu.png");
+      background-image: url("/portfolio/menu.png");
       width: 42px;
 
       background-position: center;
@@ -79,7 +79,7 @@
 
       @include breakpoint(lg) {
         position: absolute;
-        background-image: url("/Collapse.png");
+        background-image: url("/portfolio/collapse.png");
       }
     }
   }
