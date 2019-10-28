@@ -3,7 +3,6 @@ import React from "react";
 import "./ExperienceTile.scss";
 
 const ExperienceTile = props => {
-  console.log(props);
   return (
     <div className="experiencetile py-4">
       <div className="experiencetile-company">{props.company}</div>
