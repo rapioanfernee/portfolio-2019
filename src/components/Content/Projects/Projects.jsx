@@ -151,13 +151,13 @@ class Projects extends React.Component {
           <div className="project pb-4 d-flex flex-column align-items-center text-center border-bottom border-top border-secondary">
             <Swiper {...paramsChild}>
               <div className="project-photo-container">
-                <img src="/portfolio/op-home.png" alt="op"></img>
+                <img src="/portfolio/op-home.PNG" alt="op"></img>
               </div>
               <div className="project-photo-container">
-                <img src="/portfolio/op-home.png" alt="op"></img>
+                <img src="/portfolio/op-home.PNG" alt="op"></img>
               </div>
               <div className="project-photo-container">
-                <img src="/portfolio/op-home.png" alt="op"></img>
+                <img src="/portfolio/op-home.PNG" alt="op"></img>
               </div>
             </Swiper>
             <div className="project-title pt-0">OnePropertee</div>
@@ -180,13 +180,13 @@ class Projects extends React.Component {
           <div className="project pb-4 d-flex flex-column align-items-center text-center border-bottom  border-secondary">
             <Swiper {...paramsChild}>
               <div className="project-photo-container">
-                <img src="/portfolio/ilove-home.png" alt="ilove"></img>
+                <img src="/portfolio/ilove-home.PNG" alt="ilove"></img>
               </div>
               <div className="project-photo-container">
-                <img src="/portfolio/ilove-1.png" alt="ilove"></img>
+                <img src="/portfolio/ilove-1.PNG" alt="ilove"></img>
               </div>
               <div className="project-photo-container">
-                <img src="/portfolio/ilove-2.png" alt="ilove"></img>
+                <img src="/portfolio/ilove-2.PNG" alt="ilove"></img>
               </div>
             </Swiper>
             <div className="project-title pt-0">
@@ -210,13 +210,13 @@ class Projects extends React.Component {
           <div className="project pb-4 d-flex flex-column align-items-center text-center border-bottom border-secondary">
             <Swiper {...paramsChild}>
               <div className="project-photo-container">
-                <img src="/portfolio/w-home.png" alt="w"></img>
+                <img src="/portfolio/w-home.PNG" alt="w"></img>
               </div>
               <div className="project-photo-container">
-                <img src="/portfolio/w-1.png" alt="w"></img>
+                <img src="/portfolio/w-1.PNG" alt="w"></img>
               </div>
               <div className="project-photo-container">
-                <img src="/portfolio/w-2.png" alt="w"></img>
+                <img src="/portfolio/w-2.PNG" alt="w"></img>
               </div>
             </Swiper>
             <div className="project-title pt-0">Weather Forecast App</div>
