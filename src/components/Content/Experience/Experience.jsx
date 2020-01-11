@@ -9,11 +9,18 @@ import "./Experience.scss";
 const Experience = props => {
   const expArray = [
     {
+      company: "Samsung R&D Institute Philippines",
+      position: "Engineer",
+      description: [
+        "Works as a front-end developer for a team focused on delivering web application that uses analytics dashboard",
+        "Uses primarily JavaScript and ReactJS for developing web application"
+      ]
+    },
+    {
       company: "Innovation Love",
       position: "Front-End Developer",
       description: [
         "Together with a team, developed and supported a web application using ReactJS for Real ",
-
         "Converted Figma designs into a responsive web application using HTML, CSS, and ReactJS"
       ]
     },
