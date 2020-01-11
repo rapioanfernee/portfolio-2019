@@ -74,7 +74,7 @@ class Projects extends React.Component {
             <div className="project">
               <Swiper {...paramsChild}>
                 <div className="project-photo-container">
-                  <img src="/portfolio/ilove-home.PNG" alt="ilove"></img>
+                  <img src="/portfolio/ilove-Home.PNG" alt="ilove"></img>
                 </div>
                 <div className="project-photo-container">
                   <img src="/portfolio/ilove-1.PNG" alt="ilove"></img>
@@ -180,7 +180,7 @@ class Projects extends React.Component {
           <div className="project pb-4 d-flex flex-column align-items-center text-center border-bottom  border-secondary">
             <Swiper {...paramsChild}>
               <div className="project-photo-container">
-                <img src="/portfolio/ilove-home.PNG" alt="ilove"></img>
+                <img src="/portfolio/ilove-Home.PNG" alt="ilove"></img>
               </div>
               <div className="project-photo-container">
                 <img src="/portfolio/ilove-1.PNG" alt="ilove"></img>
