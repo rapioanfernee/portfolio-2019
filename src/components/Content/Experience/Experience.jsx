@@ -6,39 +6,33 @@ import ExperienceTile from "./ExperienceTile";
 
 import "./Experience.scss";
 
-const Experience = props => {
+const Experience = (props) => {
   const expArray = [
     {
       company: "Samsung R&D Institute Philippines",
       position: "Engineer",
       description: [
-        "Works as a front-end developer for a team focused on delivering web application that uses analytics dashboard",
-        "Uses primarily JavaScript and ReactJS for developing web application"
-      ]
+        "Developed and enhanced a dashboard web application using ReactJS for network analytics",
+        "Created unit tests for multiple chart components and documented usage usingStorybook and React Styleguidist",
+        "Created and published a local library of charts based on Highcharts.js to the company’s internal NPM library",
+      ],
     },
     {
       company: "Innovation Love",
       position: "Front-End Developer",
       description: [
-        "Together with a team, developed and supported a web application using ReactJS for Real ",
-        "Converted Figma designs into a responsive web application using HTML, CSS, and ReactJS"
-      ]
-    },
-    {
-      company: "White Cloak Technologies",
-      position: "ReactJS Developer",
-      description: [
-        "Together with a team, restructured and reworked a web application for back office application using ReactJS with Redux "
-      ]
+        "Enhanced and developed a web application using ReactJS and MeteorJS for real estate purpose",
+        "Converted design templates from Figma into HTML, CSS, and JavaScript code",
+        "Restructured the company’s website using ReactJS.",
+      ],
     },
     {
       company: "Accenture",
       position: "Application Development Associate",
       description: [
-        "Held a brown-bag session to discuss basics of ReactJS for participants in a local competition",
-        "Together with a team, maintained and supported a web application for billing purposes"
-      ]
-    }
+        "Developed an analytics dashboard for a project focused on IoT for monitoring a truck’s statistics using SAP UI5",
+      ],
+    },
   ];
   return (
     <div className="experience" ref={props.sectionRef}>
